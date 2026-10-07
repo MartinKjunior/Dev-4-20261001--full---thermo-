@@ -1,0 +1,24 @@
+Vial ID | Product Code | Description                        | Mean Intensity | Stdev      | Number of Voxels
+--------+--------------+------------------------------------+----------------+------------+-----------------
+A       | MNCL-0320    | 0.320mM Aqueous MnCl2              | 1827.686179    | 295.010163 | 36270           
+B       | MNCL-0159    | 0.159mM Aqueous MnCl2              | 1413.015865    | 246.998087 | 36284           
+C       | MNCL-0110    | 0.110mM Aqueous MnCl2              | 1117.653116    | 182.674247 | 36693           
+D       | MNCL-0039    | 0.039mM Aqueous MnCl2              | 501.657108     | 77.099881  | 36835           
+E       | PVP-0050     | 5% Aqueous PVP NiCl2               | 865.580978     | 152.874279 | 12036           
+F       | PVP-0100     | 10% Aqueous PVP NiCl2              | 808.386272     | 133.847158 | 11900           
+G       | PVP-0150     | 15% Aqueous PVP NiCl2              | 825.428747     | 137.132549 | 12137           
+H       | PVP-0200     | 20% Aqueous PVP NiCl2              | 856.224209     | 129.216175 | 12095           
+I       | PVP-0250     | 25% Aqueous PVP NiCl2              | 871.765407     | 148.210326 | 11896           
+J       | PVP-0300     | 30% Aqueous PVP NiCl2              | 928.084765     | 143.535043 | 12167           
+K       | PVP-0400     | 40% Aqueous PVP NiCl2              | 916.845521     | 156.991696 | 12053           
+L       | PVP-0500     | 50% Aqueous PVP                    | 986.518052     | 160.883780 | 11930           
+M       | MNCL-0078    | 0.078mM Aqueous MnCl2              | 799.756772     | 136.176344 | 12128           
+N       | MNCL-0110    | 0.110mM Aqueous MnCl2              | 873.171705     | 162.113529 | 12186           
+O       | MNCL-0480    | 0.480mM Aqueous MnCl2              | 1375.270145    | 274.699413 | 12405           
+P       | MNCL-0039    | 0.039mM Aqueous MnCl2              | 366.644447     | 79.861760  | 11910           
+Q       | MNCL-0630    | 0.630mM Aqueous MnCl2              | 1365.641820    | 249.339161 | 11868           
+R       | MNCL-0320    | 0.320mM Aqueous MnCl2              | 1374.945099    | 228.213454 | 11767           
+S       | MNCL-0017    | 0.017mM Aqueous MnCl2              | 219.643986     | 78.439771  | 11827           
+T       | MNCL-0159    | 0.159mM Aqueous MnCl2              | 1319.069662    | 223.022402 | 12102           
+U       | EG-THERM-01  | Ethylene glycol thermometry vial U | 814.460634     | 416.927215 | 4117            
+V       | EG-THERM-02  | Ethylene glycol thermometry vial V | 929.869742     | 465.165751 | 4207            
