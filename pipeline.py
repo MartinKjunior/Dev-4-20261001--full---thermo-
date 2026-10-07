@@ -61,7 +61,7 @@ def run(folder_path: Path):
 
         if fnmatch(path.name, "*DTI_SSh*_rigid.nii.gz"):
             par = path.parent.parent / path.name.replace('_rigid.nii.gz', '.PAR')
-            atlas_path = path.parent / "processed" / f"{path.stem}_atlas.nii.gz"
+            atlas_path = path.parent / path.name.replace('_rigid.nii.gz', '_atlas.nii.gz')
             sorted_paths['diffusion'] = (path, atlas_path, par)
 
     if 'thermo' in sorted_paths and 'thermo_shifted' in sorted_paths:
@@ -70,8 +70,6 @@ def run(folder_path: Path):
         process_T1_map(sorted_paths['T1_map'], vials_config)
     if 'T2_map' in sorted_paths:
         process_T2_map(sorted_paths['T2_map'], vials_config)
-    if 'diffusion' in sorted_paths:
-        process_diffusion(sorted_paths['diffusion'], vials_config)
     if 'diffusion' in sorted_paths:
         process_diffusion(sorted_paths['diffusion'], vials_config)
 
@@ -513,12 +511,6 @@ def fit_vial(echo_times: np.ndarray, signal: np.ndarray) -> dict:
     }
 
 # ====== Thermometry END ======
-
-# ====== Diffusion START ======
-
-
-
-# ====== Diffusion END ======
 
 #For full QA use "SPIRIT dev 20261005", for thermometry use "SPIRIT dev thermo 20261006"
 run(Path(R"SPIRIT dev 20261005"))
